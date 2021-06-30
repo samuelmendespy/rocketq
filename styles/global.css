@@ -11,23 +11,24 @@ html{
 --red: #E83F5B;
 --light-blue: #E0ECFF;
 --blue: #3485FF;
---bakcground: #F6FAFF;
+--background: #F6FAFF;
 --overlay: #040911;
 --icons-details:#A5B0C1;
-/* Grey */
---grey-dark:#4D5E77;
---grey-blue:#A1B2CD;
---grey-mid:#D3D9E2;
---grey-light:#E5EAF1; 
+/* gray */
+--gray-dark:#4D5E77;
+--gray-blue:#A1B2CD;
+--gray-mid:#D3D9E2;
+--gray-light:#E5EAF1; 
 
 /* Fonte em REM */
 /* User agent  ===> 100% */
 font-size: 62.5%;  /* é 10px pixels */
-
 }
+
 body{
+  display: flex;
   height: 100vh;
-  background: var(--bakcground);
+  background: var(--background);
 }
 body, button, input, textarea{
   font-size: clamp(14px, 1.6rem, 2vw);
